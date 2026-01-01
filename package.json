@@ -1,0 +1,108 @@
+{
+  "name": "@zos-apps/keynote",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.keynote",
+    "name": "Keynote",
+    "icon": "🎬",
+    "category": "productivity",
+    "description": "Create stunning presentations",
+    "permissions": [
+      "filesystem"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 1100,
+        "height": 750
+      },
+      "resizable": true
+    },
+    "featured": true,
+    "tags": [
+      "presentations",
+      "slides",
+      "productivity",
+      "office"
+    ],
+    "about": "Create stunning presentations with beautiful themes.",
+    "help": [
+      "Choose a theme",
+      "Add slides",
+      "Present your deck"
+    ],
+    "docs": "https://zos-apps.github.io/keynote",
+    "site": "https://github.com/zos-apps/keynote",
+    "features": [
+      "Templates",
+      "Animations",
+      "Collaboration",
+      "Presenter notes",
+      "Export to PDF"
+    ],
+    "shortcuts": [
+      "⌘N New slide",
+      "⌘⇧P Present",
+      "⌘D Duplicate"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/keynote"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/keynote/issues",
+    "changelog": "https://github.com/zos-apps/keynote/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Create stunning presentations",
+  "homepage": "https://zos-apps.github.io/keynote",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/keynote.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/keynote/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "keynote",
+    "presentations",
+    "slides",
+    "productivity",
+    "office"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
